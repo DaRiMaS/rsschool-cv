@@ -1,5 +1,7 @@
 # **Darima Zvagelskaya**
 
+![photo](smallPhotoMe.jpeg)
+
 ### **Contact information:**
 
 darimazvagelskaya@gmail.com
