@@ -10,7 +10,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap" rel="stylesheet">
-<meta name="viewport" content="width=980, initial-scale=1.0, user-scalable=no">
 </head>
 <body>
     <header class="header"> 
@@ -28,9 +27,9 @@
             </nav>
     </header>
 
-<main>
+<ul>
     <div class="main-container">
-        <section class="section">
+        <div class="section">
             <div class="photo">
                 <img src="assets/img/myPhoto.png" width=250 alt="My photo">
             </div>
@@ -38,11 +37,11 @@
                 <h1>Darima Zvagelskaia</h1>
                 <p class="frontend">Junior Frontend Developer</p>
             </div>
-        </section>
+        </div>
     </div> 
        
     <h2 class="aside">Contacts</h2>
-        <section class="section">
+        <div class="section">
             <ul class="contacts">
                 <li><img src="assets/img/telegram.png" width=80 height=80 alt="Telegram"></li>
                 <li>@darimaz</li>
@@ -51,26 +50,26 @@
                 <li><img src="assets/img/github.png" width=80 height=80 alt="Github"></li>
                 <li>DaRiMaS</li>
             </ul>                    
-        </section>
-    <h2 class="aside">About me</h2></aside>
-        <section class="section" id="profile">
+        </div>
+    <h2 class="aside">About me</h2>
+        <div class="section" id="profile">
                 <p>I have some experience in creating websites using Wix and Tilda.</p> 
                 <p>Also I tried to make wireframes and prototypes of websities and mobile apps using Figma and Sketch.</p>
                 <p>Now I set a goal to learn HTML, CSS, Java Script and frameworks to create sites, which will be usefull for business.</p>       
-        </section>
+        </div>
 
-    <h2 class="aside">Skills</h2></aside>
-        <section class="section" id="skills">
+    <h2 class="aside">Skills</h2>
+        <ul class="section" id="skills">
                 <li>Figma, Wix, Tilda</li>
                 <li>Git, Github</li>
                 <li>Excel, SPSS</li>
                 <li>ffmpeg</li>
-        </section>  
+        </ul>  
             
-    <h2 class="aside">Code example</h2></aside>
-        <section class="section" id="code">
-<code>
-    <pre>
+    <h2 class="aside">Code example</h2>
+        <div class="section" id="code">
+<pre>
+    <code>
     const encrypt = (str) => {
         let newStr = '';
         for (let i = 0; i < str.length;  i = i + 2) {
@@ -82,12 +81,12 @@
         }
         return newStr;
     }; 
-    </pre>
-</code>
-        </section>  
+    </code>
+</pre>
+        </div>  
 
-    <h2 class="aside">English</h2></aside>
-        <section class="section" id="english">
+    <h2 class="aside">English</h2>
+        <div class="section" id="english">
             <p>Current level - between Intermediate and Upper-Intermediate</p>
             <li>
                 <a href="https://drive.google.com/drive/folders/1jyPiSCAfKNpdyXIMC2TN8JpEOKENEyPg?usp=sharing">IELTS certificate</a>
@@ -95,56 +94,68 @@
             <li>
                 <a href="https://lalschools.com/young-learners/destination/torbay/">Language practice at LAL Language Centre</a>
             </li>
-        </section>
+        </div>
 
-    <h2 class="aside">Courses</h2></aside>
-        <section class="section" id="courses">
-            <h3><ul> User Interface Design:</h3>
+    <h2 class="aside">Courses</h2>
+        <div class="section" id="courses">
+            <h3>User Interface Design:</h3>
+                <ul> 
                     <li>Intoduction to UI Design</li>
                     <li>User Research and Design</li>
                     <li>Prototyping and Design</li>
                     <li>Evaluating User Interfaces</li>
                 </ul>
-            <h3><ul>Design of Interfaces:</h3>
+            <h3>Design of Interfaces:</h3>
+                <ul> 
                     <li>Design of Interfaces. Introduction</li>
                     <li>Design Concept</li>
                     <li>Prototyping and Testing of UI</li>
                     <li>Design mobile applications</li>
                 </ul>
-            <h3><ul>Computer Graphics</ul></h3>
+            <h3>Computer Graphics</h3>
                 <ul><a href="https://drive.google.com/drive/u/1/folders/1TWiSIP5PY9xgfo9lQ_CX8rY-YVRcbDT6">My certificates</a></ul>
-        </section>   
+        </div>   
 
-    <h2 class="aside">Education</h2></aside>
-        <section class="section" id="education">
-            <h3><ul class="year">2005 - 2002 </h3>
+    <h2 class="aside">Education</h2>
+        <div class="section" id="education">
+            <h3>2005 - 2002</h3>
+                <ul> 
                     <li>Saint-Petersburg State Unversity, PhD in Psychology;</li>
-            <h3><ul class="year">1999 - 1995</ul></h3>
+                </ul>
+            <h3>1999 - 1995</h3>
+                <ul> 
                     <li>Buryat State University, Teacher of the primary school;</li>
                 </ul>
-        </section>  
+        </div>  
 
-    <h2 class="aside">Work experience</h2></aside>
-        <section class="section" id="experience">
-            <h3><ul class="year"> 2022 - 2020</h3>
+    <h2 class="aside">Work experience</h2>
+        <div class="section" id="experience">
+            <h3>2022 - 2020</h3>
+                <ul>
                     <li>analizing statistic data of the regional school's tests;</li>
                     <li>vizualising results, writing reports and articles.</li>
-            <h3><ul class="year">2016 - 2004</h3>
+                </ul>
+            <h3>2016 - 2004</h3>
+                <ul> 
                     <li>lecturing at the Department of Psychology and Pedagogics at SPb Universities;</li>
                     <li>writing courses, scientific and educational publications;</li>
                     <li>organizing student's conferences and competitions;</li>
                     <li>consulting student's scientific works in Psychology.</li>
                 </ul>
-            <h3><ul class="year">2007 - 2003</ul></h3>
+            <h3>2007 - 2003</h3>
+                <ul> 
                     <li>administrative job at the Department of Social Antropology and Psychology, SPbSU;</li>
-                <h3><ul class="year">2002 - 2000</ul></h3>
+                </ul>
+                <h3>2002 - 2000</h3>
+                <ul> 
                     <li>administrative job at the Educational Centre of Buryat State University;</li>
-        </section>  
+                </ul>
+        </div>  
 </main>
     <footer class="class-footer">
             <ul class="nav-list">
                 <li>
-                    <time datetime="2022 January" class="nav-link">Made ©2022 January</time>
+                    <p class="nav-link">Made ©2022 January</p>
                 </li>
                 <li class="nav-item" class="link-item"> 
                     <a href="https://github.com/DaRiMaS/" class="nav-link">by DaRiMaS</a>
