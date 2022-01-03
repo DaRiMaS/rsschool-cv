@@ -1,21 +1,130 @@
+
 body {
-    font-family: Arial, Verdana,  sans-serif; /* Семейство шрифтов */
-    font-size: 11pt; /* Размер основного шрифта в пунктах  */
-    background-color: #f0f0f0; /* Цвет фона веб-страницы */
-    color: #333; /* Цвет основного текста */ 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  margin: 0; padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14pt;
+  background-color:rgba(50, 70, 170, 0.1); 
+  color: rgb(34, 30, 30);
   }
-  h1 {
-    color: #a52a2a; /* Цвет заголовка */
-    font-size: 24pt; /* Размер шрифта в пунктах */
-    font-family: Georgia, Times, serif; /* Семейство шрифтов */
-    font-weight: normal; /* Нормальное начертание текста  */
+
+  .header {
+    background-color: rgba(119, 139, 234, 0.5);
+    align-self: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    position: fixed;
+    flex-grow: 0;
   }
-  p {
-    text-align: justify; /* Выравнивание по ширине */
-    margin-left: 60px; /* Отступ слева в пикселах */
-    margin-right: 10px; /* Отступ справа в пикселах */
-    border-left: 1px solid #999; /* Параметры линии слева */
-    border-bottom: 1px solid #999; /* Параметры линии снизу */
-    padding-left: 10px; /* Отступ от линии слева до текста  */
-    padding-bottom: 10px; /* Отступ от линии снизу до текста  */
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+   
+.nav-link {
+  padding: 0 30px;
+  line-height: 50px;
+}
+  
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+ 
+    } 
+    .main-container {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      align-content: stretch;
+    }
+
+  .photo {
+    margin: 20%;
   }
+  .name{
+    justify-content: center;
+    align-items: center;
+  }
+  .name-inner{
+    text-align-last: center;
+  }  
+  .frontend {
+    align-items: center;
+    font-size: larger;
+    color: rgb(89, 126, 248)
+  }
+
+.aside {
+  margin-top: 5%;;
+  padding-left: 10%;
+  background-color: rgba(119, 139, 234, 0.5);
+}
+
+  .contacts {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+    .section {
+      background-color: azure;
+      flex-direction: column;
+      justify-content: center;
+      padding: 8%;
+      line-height: 30px;
+      border: 1px solid  rgb(89, 126, 248);
+      background-color: aliceblue;
+    }
+ 
+    h1 { 
+      color: rgb(200, 100, 250) ; /* Цвет заголовка */
+      font-size: 32pt; /* Размер шрифта в пунктах */
+      font-family: Georgia, Times, serif; /* Семейство шрифтов */
+      
+    }
+    h2 {
+      color: #fff;
+      font-size: 20pt;
+      font-weight: normal;
+      padding-top: 1%;
+      padding-bottom: 1%;
+    }
+
+    h3 {
+      color:rgb(95, 89, 95);
+      font-size: 16pt;
+      font-weight: bolder; 
+    }
+    p {
+      text-align: justify; /* Выравнивание по ширине */
+      margin-left: 0px; /* Отступ слева в пикселах */
+      margin-right: 10px; /* Отступ справа в пикселах */
+      padding-left: 10px; /* Отступ от линии слева до текста  */
+      padding-bottom: 10px; /* Отступ от линии снизу до текста  */
+      
+  }
+.class-footer {
+    max-width: 1440px;
+    margin: 0 auto;
+    list-style: none;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+}
+
+    .link {
+      text-decoration: none;
+      color: #829985;
+      transition: color 0.5s;
+    }
+    .link:hover {
+      color: #5d7260;
+    }
