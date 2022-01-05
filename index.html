@@ -17,7 +17,7 @@
     <header class="header">
         <nav class="nav">
             <ul class="nav-list">
-                <li><a href="#contacts" class="nav-link">Contacts</a></>
+                <li><a href="#contacts" class="nav-link">Contacts</a></li>
                 <li><a href="#profile" class="nav-link">About me</a></li>
                 <li><a href="#skills" class="nav-link">Skills</a></li>
                 <li><a href="#code" class="nav-link">Code</a></li>
@@ -73,7 +73,7 @@
             <code>
     const encrypt = (str) => {
         let newStr = '';
-        for (let i = 0; i < str.length;  i = i + 2) {
+        for (let i = 0; i &lt; str.length;  i = i + 2) {
             if (i + 1 >= str.length) {
                 newStr = newStr + str[i];
             } else {
@@ -89,14 +89,16 @@
         <section class="section" id="english">
             <h2>English</h2>
             <p>Current level - between Intermediate and Upper-Intermediate</p>
-            <li>
-                <a href="https://drive.google.com/drive/folders/1jyPiSCAfKNpdyXIMC2TN8JpEOKENEyPg?usp=sharing">IELTS
-                    certificate</a>
-            </li>
-            <li>
-                <a href="https://lalschools.com/young-learners/destination/torbay/">Language practice at LAL Language
-                    Centre</a>
-            </li>
+            <ul>
+                <li>
+                    <a href="https://drive.google.com/drive/folders/1jyPiSCAfKNpdyXIMC2TN8JpEOKENEyPg?usp=sharing">IELTS
+                        certificate</a>
+                </li>
+                <li>
+                    <a href="https://lalschools.com/young-learners/destination/torbay/">Language practice at LAL Language
+                        Centre</a>
+                </li>
+            </ul>
         </section>
 
         <section class="section" id="courses">
@@ -164,10 +166,10 @@
             <li>
                 <p class="nav-link">Made ©January 2022</p>
             </li>
-            <li class="nav-item" class="link-item">
+            <li class="link-item">
                 <a href="https://github.com/DaRiMaS/" class="nav-link">by DaRiMaS</a>
             </li>
-            <li class="nav-item" class="link-item">
+            <li class="link-item">
                 <a href="https://rs.school/js/" class="nav-link"><img src="https://rs.school/images/rs_school_js.svg"
                         alt="rsschool" width=80 height=30></a>
             </li>
