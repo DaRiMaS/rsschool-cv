@@ -1,0 +1,109 @@
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  margin: 0; padding: 0;
+  background-color:rgba(50, 70, 170, 0.1); 
+  font-family: 'Roboto', sans-serif;
+  font-size: 14pt;
+  color: rgb(34, 30, 30);
+}
+
+.header {
+  background-color: rgba(119, 139, 234, 0.5);
+  max-width: 1440px;
+  margin: 0 auto;  
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+   
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+}
+  
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+} 
+.main-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: stretch;
+}
+
+.photo {
+  margin: 10%;
+  text-align: center;
+}
+
+.name-inner{
+  text-align: center;
+  font-size: larger;
+  color: rgb(89, 126, 248);
+}
+
+.contacts {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.icon {
+  vertical-align: middle;
+}
+
+.section {
+  background-color: azure;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8%;
+  margin-top: 2%;
+  line-height: 30px;
+  border: 1px solid  rgb(89, 126, 248);
+  background-color: aliceblue;
+}
+
+h1 { 
+  color: rgb(200, 100, 250) ; /* Цвет заголовка */
+  font-size: 32pt;
+  font-family: Georgia, Times, serif; /* Семейство шрифтов */
+  text-align: center;
+}
+h2 {
+  color: #fff;
+  font-size: 20pt;
+  font-weight: normal;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 5%;
+  background-color: rgba(119, 139, 234, 0.5);
+}
+
+h3 {
+  color:rgb(95, 89, 95);
+  font-size: 16pt;
+  font-weight: bolder; 
+}
+
+p {
+  text-align: justify; /* Выравнивание по ширине */
+  margin-left: 0px; /* Отступ слева в пикселах */
+  margin-right: 10px; /* Отступ справа в пикселах */
+  padding-left: 10px; /* Отступ от линии слева до текста  */
+  padding-bottom: 10px; /* Отступ от линии снизу до текста  */
+}
+.footer {
+  max-width: 1440px;
+  margin: 0 auto;
+}
